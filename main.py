@@ -1,6 +1,12 @@
+"""Main program that demonstrates the input_reader module with bounds."""
+
+
 from input_reader import read_int, read_float
 def main():
     # do something to show functionality
+    """
+    Reads some numbers within bounds and prints them.
+    """
     mark = read_float('Please enter a mark for your python class> ', lower_bound= 0, upper_bound= 6)
     score_0_to_100 = read_int('Please enter a whole number between 0 and 100> ', lower_bound = 0, upper_bound = 100)
     positive_zahl = read_int('Please enter a positive whole number> ', lower_bound = 1)
